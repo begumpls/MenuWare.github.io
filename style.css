@@ -32,7 +32,7 @@
     color: rgb(25, 122, 139);
     text-transform: uppercase;
 }
-.navbar ul li ::after{
+.navbar ul li :after{
     content: '';
     height: 3px;
     width: 100%;
@@ -53,7 +53,7 @@
     width: 100%;
    position: absolute;
    top: 50%;
-   transform: translateY(-50½);
+   transform: translateY(-50%);
    text-align: center;
    color: antiquewhite;
 }
